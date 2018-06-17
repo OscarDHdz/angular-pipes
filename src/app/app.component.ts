@@ -30,4 +30,6 @@ export class AppComponent {
   });
 
   hoy = new Date();
+
+  vidCode = 'c0jWYPIClC0';
 }
