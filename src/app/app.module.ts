@@ -7,11 +7,12 @@ import localeEs from '@angular/common/locales/es';
 import { registerLocaleData } from '@angular/common';
 import { CapitalizePipe } from './pipes/capitalize.pipe';
 import { SecuredomPipe } from './pipes/securedom.pipe';
+import { PasswordPipe } from './pipes/password.pipe';
 registerLocaleData(localeEs);
 
 @NgModule({
   imports: [BrowserModule],
-  declarations: [AppComponent, CapitalizePipe, SecuredomPipe],
+  declarations: [AppComponent, CapitalizePipe, SecuredomPipe, PasswordPipe],
   providers: [{ provide: LOCALE_ID, useValue: 'es' }],
   bootstrap: [AppComponent]
 })

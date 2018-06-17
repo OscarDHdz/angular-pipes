@@ -32,4 +32,7 @@ export class AppComponent {
   hoy = new Date();
 
   vidCode = 'c0jWYPIClC0';
+
+  password = 'bdfsdofishdf234i2nwdf';
+  hidePasword = true;
 }
